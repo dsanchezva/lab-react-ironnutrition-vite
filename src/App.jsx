@@ -16,18 +16,7 @@ function App() {
       <AddFoodForm allFoodList={allFoodList} setFoodList={setFoodList} />
 
       <br />
-      <FoodList allFoodList={allFoodList} />
-      {/* {foodList.map((eachFood, index) => {
-        return (
-          <FoodBox
-            key={index}
-            food={eachFood}
-            index={index}
-            foodList={foodList}
-            setFoodList={setFoodList}
-          />
-        );
-      })} */}
+      <FoodList allFoodList={allFoodList} setFoodList={setFoodList} />
     </div>
   );
 }
